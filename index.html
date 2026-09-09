@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday My Friend! 🎂❤️ | 13th September Surprise</title>
+  <meta name="description" content="A special, emotional, and interactive birthday surprise website created for Panda / Dhane on 13th September.">
+  
+  <!-- Google Fonts: Outfit, Dancing Script, Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Outfit:wght@300;400;500;600;700&family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- React 18 & Babel Standalone CDN -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+
+  <!-- Background Canvas Particle Layers -->
+  <canvas id="bg-canvas"></canvas>
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- React App Root Container -->
+  <div id="root"></div>
+
+  <!-- HTML5 Audio Element referencing assets/audio/Yaelae-Yealae-Dhosthu-Da.mp3 -->
+  <audio id="friendship-audio" loop preload="auto" autoplay>
+    <source src="assets/audio/Yaelae-Yealae-Dhosthu-Da.mp3" type="audio/mpeg">
+    <source src="music/friendship-song.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Main React Application Logic -->
+  <script type="text/babel" src="script.js"></script>
+</body>
+</html>
